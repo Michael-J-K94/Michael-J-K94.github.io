@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Michael Jaemin Kim"
-  avatar : "/assetes/images/profile_1.jpg" #"/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile_1.jpg" #"/assets/images/bio-photo.jpg"
   bio    : "I am Groot"
   links:
 #    - label: "Website"
