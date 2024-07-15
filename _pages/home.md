@@ -9,7 +9,7 @@ excerpt: >
   <small><a href="https://scholar.google.com/citations?user=Kir6BN8AAAAJ&hl=ko&oi=ao">Google Scholar</a></small> <br />
   <small><a href="/Jaemin_CV.pdf">CV</a></small> <br />
 
-  <small><a href="https://www.linkedin.com/in/michael-jaemin-kim-8736b4211/">LinkeIn</a></small>
+  <small><a href="https://www.linkedin.com/in/michael-jaemin-kim-8736b4211/">LinkedIn</a></small>
 intro: 
   - image_path: /profile_micro_2023.jpg
     alt: "yoyo"
