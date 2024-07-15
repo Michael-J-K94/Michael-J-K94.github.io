@@ -13,7 +13,7 @@ excerpt: >
 intro: 
   - image_path: /profile_micro_2023.jpg
     alt: "yoyo"
-    excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+    excerpt: 'I am a PhD candidate at Seoul National University (SNU), supervised by Prof. Jung Ho Ahn, and I will be graduating in February 2025. Previously, I was a visiting researcher at the University of Illinois Urbana-Champaign (UIUC) from March 2023 to March 2024, supervised by Prof. Nam Sung Kim. I hold dual nationalities for the USA and South Korea, and I have completed my mandatory military service for South Korea. Before pursuing my PhD, I received a BA degree in Electrical and Computer Engineering (ECE) from SNU in 2019. <br /> <br /> My research focuses on memory systems, specifically DRAM security, reliability, and performance. I have also contributed to accelerating Fully Homomorphic Encryption (FHE) and improving polynomial approximations for Privacy-Preserving Machine Learning (PPML) based on FHE or Multi-Party Computation (MPC). Recently, I have collaborated on accelerating Large-Language Models (LLMs) using Processing-In-Memory (PIM) architecture. <br /> <br /> <code style="color:gray">(Some TMIs: I love indoor bouldering. I am trying to learn DJ-ing for deep house or minimal techno stuff. Also a huge fan of cinema.)</code>'
 feature_row2:
   - 
     title: "Publication"
@@ -50,6 +50,6 @@ feature_row2:
       <span style="color:orange">M. J. Kim</span>, J. Park, Y. Park, W. Doh, N. Kim, T. Ham, J. Lee, and J. Ahn <br /> <br />
 ---
 
-{% include feature_row id="intro" %}
+{% include feature_row id="intro" type="left"%}
 
 {% include feature_row id="feature_row2" type="left" %}
