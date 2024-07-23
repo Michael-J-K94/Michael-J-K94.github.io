@@ -14,6 +14,21 @@ intro:
   - image_path: /profile_micro_2023.jpg
     alt: "yoyo"
     excerpt: 'I am a PhD candidate at Seoul National University (SNU), supervised by Prof. Jung Ho Ahn, and I will be graduating in February 2025. Previously, I was a visiting researcher at the University of Illinois Urbana-Champaign (UIUC) from March 2023 to March 2024, supervised by Prof. Nam Sung Kim. Before pursuing my PhD, I received a BSE degree in Electrical and Computer Engineering (ECE) from SNU in 2019. <br /> <br /> My research focuses on memory systems, specifically DRAM security, reliability, and performance. I have also contributed to accelerating Fully Homomorphic Encryption (FHE) and improving polynomial approximations for Privacy-Preserving Machine Learning (PPML) based on FHE or Multi-Party Computation (MPC). Recently, I have collaborated on accelerating Large-Language Models (LLMs) using Processing-In-Memory (PIM) architecture. <br /> <br /> I hold dual nationalities for the USA and South Korea, and I have completed my mandatory military service for South Korea. <br /> <br /> <code style="color:gray">(Some TMIs: I love indoor bouldering. I am trying to learn DJ-ing for deep house or minimal techno stuff. Also a huge fan of cinema.)</code>'
+feature_row0:
+  -
+    title: "Nationality"
+    classes: wide
+    excerpt: >
+      USA and S. Korea (dual nationality) <br /> <br />
+feature_row1:
+  - 
+    title: "Education"
+    classes: wide
+    excerpt: >
+      B.S.E. in Electrical and Computer Engineering, Seoul National University, 2019 <br />
+      Ph.D Candidate, Seoul National University (Prof. Jung Ho Ahn), 2019 - Now <br />
+      Visiting Research, UIUC (Prof. Nam Sung Kim), 2023 - 2024 <br />
+
 feature_row2:
   - 
     title: "Publication"
@@ -52,4 +67,6 @@ feature_row2:
 
 {% include feature_row id="intro" type="left"%}
 
+{% include feature_row id="feature_row0" type="center" %}
+{% include feature_row id="feature_row1" type="center" %}
 {% include feature_row id="feature_row2" type="left" %}
