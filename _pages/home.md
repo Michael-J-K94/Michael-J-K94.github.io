@@ -34,6 +34,15 @@ feature_row2:
     title: "Publication"
     classes: wide
     excerpt: >
+      <code style="background-color:green">[ASPLOS 2025]</code> "Marionette: A RowHammer Attack via Row Coupling", <br />
+      Seungmin Baek, Minbok Wi, Seonyong Park, Hwayong Nam, <span style="color:orange">M. J. Kim</span>, Nam Sung Kim, Jung Ho Ahn <br /> <br />
+
+      <code style="background-color:green">[ASPLOS 2025]</code> "M5: Mastering page migration and memory management for CXL-based tiered memory systems ", <br />
+      Yan Sun, Jongyul Kim, Douglas Yu, Jiyuan Zhang, Siyuan Chai, <span style="color:orange">M. J. Kim</span>, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim <br /> <br />
+
+      <code style="background-color:maroon">[IEEE ESL 2024]</code> "Hechi: A Hybrid Approach for Efficient Memory Reclamation Techniques in Mobile Systems", <br />
+      Wanju Doh, Seoyoung Ko, <span style="color:orange">M. J. Kim</span>, Jung Ho Ahn <br /> <br />
+
       <code style="background-color:green">[ISCA 2024]</code> "DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands", <br />
       Hwayong Nam, Seungmin Baek, Minbok Wi, <span style="color:orange">M. J. Kim</span>, Jaehyun Park, Chihun Song, N. S. Kim, J. Ahn <br /> <br />
 
