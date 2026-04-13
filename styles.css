@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1f1f1f;
+  background: #ffffff;
+  line-height: 1.65;
+}
+
+a {
+  color: #0b57a3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 56px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #666666;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  align-items: start;
+}
+
+.photo-frame {
+  width: 220px;
+  aspect-ratio: 1 / 1.2;
+  border: 1px solid #cfcfcf;
+  overflow: hidden;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.intro-copy h2,
+.content-section h2 {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.intro-copy p {
+  margin: 0 0 14px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.content-section {
+  padding: 22px 0;
+  border-top: 1px solid #e1e1e1;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.content-section ul li + li,
+.content-section ol li + li {
+  margin-top: 10px;
+}
+
+.publication-list {
+  padding-left: 24px;
+}
+
+.publication-list li {
+  margin-top: 14px;
+  padding-left: 4px;
+}
+
+.authors {
+  color: #444444;
+}
+
+.self-name {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.citation {
+  color: #555555;
+}
+
+.venue {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.venue-hpca {
+  color: #0b57a3;
+}
+
+.venue-isca {
+  color: #1c7c45;
+}
+
+.venue-micro {
+  color: #b85c00;
+}
+
+.venue-asplos {
+  color: #7b3fb6;
+}
+
+.venue-sp {
+  color: #b4233c;
+}
+
+.venue-cal,
+.venue-esl,
+.venue-tc,
+.venue-arxiv {
+  color: #555555;
+}
+
+@media (max-width: 720px) {
+  .site-header,
+  .intro {
+    display: block;
+  }
+
+  nav {
+    margin-top: 14px;
+  }
+
+  .photo-frame {
+    margin-bottom: 20px;
+    width: min(220px, 100%);
+  }
+}
